@@ -1,0 +1,140 @@
+/* 
+  Design System: Inclusão Digital (MVP)
+  Foco: Idosos, Acessibilidade extrema, Desenho Universal.
+*/
+
+:root {
+  /* Cores de Alto Contraste */
+  --color-bg: #FFFFFF;
+  --color-text: #1A1A1A;
+  --color-primary: #0056B3; /* Azul bem visível */
+  --color-secondary: #28A745; /* Verde para sucesso/ação positiva */
+  --color-warning: #D32F2F; /* Vermelho para alertas/segurança */
+  --color-accent: #FFD700; /* Amarelo para destaque */
+  --color-gray: #F4F4F4;
+
+  /* Espaçamento Generoso para toque (Touch Targets) */
+  --spacing-sm: 12px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+
+  /* Tipografia (Respeita fontes do sistema) */
+  --font-size-base: 20px; /* Base aumentada para idosos */
+  --font-size-lg: 24px;
+  --font-size-xl: 32px;
+  --font-size-title: 40px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  line-height: 1.5;
+  padding-bottom: 5rem; /* Espaço para menu inferior se necessário */
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  margin-bottom: var(--spacing-md);
+  font-weight: 800;
+}
+
+h1 { font-size: var(--font-size-title); }
+h2 { font-size: var(--font-size-xl); }
+
+p {
+  margin-bottom: var(--spacing-md);
+}
+
+/* Container Principal */
+.main-container {
+  max-width: 600px; /* Focado em Mobile/Leitura confortável */
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+/* Botões Gigantes (Touch Targets > 48px) */
+.button-giant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 80px;
+  padding: var(--spacing-md);
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: var(--font-size-lg);
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.1s, background-color 0.2s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.button-giant:active {
+  transform: scale(0.98);
+  background-color: #003D80;
+}
+
+.button-giant.secondary {
+  background-color: var(--color-secondary);
+}
+
+.button-giant.warning {
+  background-color: var(--color-warning);
+}
+
+/* Grids Simples (1 ou 2 colunas no máximo) */
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-md);
+}
+
+/* Cards de Conteúdo */
+.content-card {
+  border: 3px solid var(--color-gray);
+  border-radius: 20px;
+  padding: var(--spacing-md);
+  background: white;
+  margin-bottom: var(--spacing-md);
+}
+
+.content-card .category-tag {
+  display: inline-block;
+  background: var(--color-accent);
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: var(--spacing-sm);
+  font-size: 16px;
+}
+
+/* Player Responsivo */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: var(--spacing-md);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
