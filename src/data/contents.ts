@@ -3,37 +3,175 @@ export interface ContentItem {
   title: string;
   url_video: string;
   url_pdf_guia?: string;
-  category: 'WhatsApp' | 'Segurança' | 'Serviços Públicos' | 'Básico';
+  category: 'WhatsApp' | 'Segurança' | 'Serviços Públicos' | 'Básico' | 'Social' | 'Finanças';
   description: string;
+}
+
+export interface GuideStep {
+  text: string;
+  image_url: string;
+}
+
+export interface GuideItem {
+  id: string;
+  title: string;
+  description: string;
+  category: string;
+  steps: GuideStep[];
 }
 
 export const CONTENTS: ContentItem[] = [
   {
-    id: 'whatsapp-localizacao',
-    title: 'Como enviar localização no WhatsApp',
-    url_video: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder, ideal trocar por link real do Cidadão na Rede
+    id: 'aula-basica-android',
+    title: 'Aula Básica de Android',
+    url_video: 'https://www.youtube.com/embed/MfLT6WHQ0GQ',
+    category: 'Básico',
+    description: 'Introdução aos botões, ícones e gestos básicos na tela.'
+  },
+  {
+    id: 'instalar-aplicativos',
+    title: 'Como Instalar Aplicativos',
+    url_video: 'https://www.youtube.com/embed/FLeh5suShkQ',
+    category: 'Básico',
+    description: 'Tutorial sobre como usar a Play Store com segurança para baixar novos apps.'
+  },
+  {
+    id: 'whatsapp-golpes',
+    title: 'WhatsApp e Prevenção de Golpes',
+    url_video: 'https://www.youtube.com/embed/oR2YCrVpReY',
     category: 'WhatsApp',
-    description: 'Aprenda a avisar sua família onde você está de forma simples e segura.'
+    description: 'Dicas cruciais para não cair em fraudes e proteger as conversas.'
   },
   {
-    id: 'seguranca-links',
-    title: 'Como identificar um link de golpe',
-    url_video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    id: 'passo-a-passo-pix',
+    title: 'Passo a Passo do Pix',
+    url_video: 'https://www.youtube.com/embed/xQOHrGDzVuU',
+    category: 'Finanças',
+    description: 'Explicação visual de como fazer pagamentos e transferências rápidas.'
+  },
+  {
+    id: 'aumentar-letras',
+    title: 'Aumentar Letras e Visibilidade',
+    url_video: 'https://www.youtube.com/embed/ysKUYLO9cNM',
+    category: 'Básico',
+    description: 'Configurações de acessibilidade para facilitar a leitura no celular.'
+  },
+  {
+    id: 'entrando-facebook',
+    title: 'Entrando no Facebook',
+    url_video: 'https://www.youtube.com/embed/DDqGxeqsEhY',
+    category: 'Social',
+    description: 'Guia para iniciantes que querem ver fotos de amigos e familiares.'
+  },
+  {
+    id: 'celular-adaptado',
+    title: 'Celular Adaptado (Interface Simples)',
+    url_video: 'https://www.youtube.com/embed/nVcZsCfg9CM',
+    category: 'Básico',
+    description: 'Como deixar o sistema com ícones gigantes e apenas o essencial.'
+  },
+  {
+    id: 'seguranca-privacidade',
+    title: 'Segurança Digital e Privacidade',
+    url_video: 'https://www.youtube.com/embed/TrRrp6HaD1M',
     category: 'Segurança',
-    description: 'Dicas para não clicar em mensagens falsas e proteger seus dados.'
+    description: 'Orientações sobre cuidados ao clicar em links e navegar na internet.'
   },
   {
-    id: 'gov-br-baixar',
-    title: 'Como baixar o app Gov.br',
-    url_video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    id: 'noticias-falsas',
+    title: 'Verificador de Notícias Falsas',
+    url_video: 'https://www.youtube.com/embed/8PbqbnMKP0I',
+    category: 'Segurança',
+    description: 'Apresentação de ferramentas que ajudam a checar se uma mensagem é real.'
+  },
+  {
+    id: 'escolher-celular',
+    title: 'Como Escolher um Novo Celular',
+    url_video: 'https://www.youtube.com/embed/2qt8XvorXkQ',
+    category: 'Básico',
+    description: 'O que observar na hora da compra para não levar um aparelho difícil de usar.'
+  }
+];
+
+export const GUIDES: GuideItem[] = [
+  {
+    id: 'enxergar-melhor',
+    title: 'Como Enxergar Melhor',
+    description: 'Aumente o tamanho das letras e cores do seu celular.',
+    category: 'Acessibilidade',
+    steps: [
+      {
+        text: '1. No menu principal do seu celular, procure e toque na "Engrenagem" de Configurações.',
+        image_url: '/mao_clicando_configuracoes.png'
+      },
+      {
+        text: '2. Agora, toque na opção "Visor" ou "Tela" (tem um desenho de sol).',
+        image_url: '/mao_clicando_visor.png'
+      },
+      {
+        text: '3. Procure por "Tamanho da Fonte" e arraste a bolinha para a direita para a letra ficar GIGANTE.',
+        image_url: '/alavanca_fonte_maxima.png'
+      }
+    ]
+  },
+  {
+    id: 'pix-seguro',
+    title: 'Guia do Pix Seguro',
+    description: 'Aprenda a fazer transferências sem medo de errar ou cair em golpes.',
+    category: 'Finanças',
+    steps: [
+      {
+        text: '1. No aplicativo do seu banco, procure pelo botão com o desenho do PIX (o X verde e branco).',
+        image_url: '/clicando_no_pix.png'
+      },
+      {
+        text: '2. O PASSO MAIS IMPORTANTE: Antes de colocar a senha, confira se o NOME da pessoa está correto.',
+        image_url: '/conferir_nome_pix.png'
+      },
+      {
+        text: '3. LEMBRE-SE: O banco NUNCA liga pedindo sua senha. Se alguém pedir por telefone, desligue na hora!',
+        image_url: '/aviso_seguranca_pix.png'
+      }
+    ]
+  },
+  {
+    id: 'whatsapp-protegido',
+    title: 'WhatsApp Protegido',
+    description: 'Crie uma senha secreta para ninguém roubar sua conta.',
+    category: 'Segurança',
+    steps: [
+      {
+        text: '1. No seu WhatsApp, toque nos "Três Pontinhos" no alto e depois em "Configurações".',
+        image_url: '/whatsapp_configuracoes.png'
+      },
+      {
+        text: '2. Vá em "Conta" e toque em "Confirmação em duas etapas". Crie um código de 6 números que você não esqueça.',
+        image_url: '/whatsapp_pin.png'
+      },
+      {
+        text: '3. DICA DE OURO: Escreva esses 6 números em um papel e guarde em uma gaveta segura na sua casa.',
+        image_url: '/whatsapp_papel_pin.png'
+      }
+    ]
+  },
+  {
+    id: 'gov-br-acesso',
+    title: 'Gov.br Fácil',
+    description: 'Entre no Gov.br para ver sua Carteira de Trabalho, SUS e INSS.',
     category: 'Serviços Públicos',
-    description: 'Passo a passo para ter acesso aos serviços do governo no seu celular.'
-  },
-  {
-    id: 'seguranca-senhas',
-    title: 'Criando senhas fortes',
-    url_video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    category: 'Segurança',
-    description: 'Saiba como criar senhas que ninguém consegue adivinhar.'
+    steps: [
+      {
+        text: '1. Digite seu CPF e a sua Senha Única. Lembre-se: esta senha serve para quase tudo do Governo.',
+        image_url: '/gov_br_login.png'
+      },
+      {
+        text: '2. O SEGREDO DA FOTO: Para fazer o reconhecimento facial, fique em um lugar bem iluminado e tire o óculos.',
+        image_url: '/gov_br_foto.png'
+      },
+      {
+        text: '3. NÍVEIS PRATA E OURO: Conseguir essas "medalhas" é bom para ter mais segurança e acessar mais serviços.',
+        image_url: '/gov_br_medalhas.png'
+      }
+    ]
   }
 ];

@@ -1,22 +1,27 @@
+import Link from 'next/link';
+
 export default function ReliabilityPage() {
   return (
-    <div>
+    <main className="main-container">
       <header>
-        <a href="/" style={{ fontSize: '18px', display: 'block', marginBottom: 'var(--spacing-md)' }}>
-          ← Voltar para Início
-        </a>
+        <Link 
+          href="/" 
+          style={{ fontSize: '18px', display: 'block', marginBottom: 'var(--spacing-md)', textDecoration: 'none', fontWeight: 'bold', color: 'var(--color-primary)' }}
+        >
+          ← Voltar para o Início
+        </Link>
         <h1>Confiabilidade de Sites</h1>
-        <p>Este módulo será incorporado no futuro para monitorar o status dos nossos serviços e garantir que tudo funcione sempre.</p>
+        <p>Este módulo será incorporado no futuro para garantir que tudo funcione sempre para você.</p>
       </header>
 
       <div className="content-card">
         <h2>O que é Confiabilidade?</h2>
-        <p>Garantir que os sites estejam sempre no ar e rápidos para quem mais precisa.</p>
+        <p>É o nosso compromisso em garantir que o site esteja sempre disponível, rápido e seguro para quem mais precisa.</p>
       </div>
 
-      <button className="button-giant secondary" onClick={() => window.history.back()}>
-        Entendido
-      </button>
-    </div>
+      <Link href="/" className="button-giant secondary">
+        Entendido, Voltar
+      </Link>
+    </main>
   );
 }
