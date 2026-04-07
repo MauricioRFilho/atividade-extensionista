@@ -268,3 +268,39 @@ footer {
 .animate-pulse-slow {
   animation: pulse 2s infinite ease-in-out;
 }
+
+/* Responsividade Mobile - Correção de Quebra */
+@media (max-width: 768px) {
+  :root {
+    --font-size-title: 32px;
+    --font-size-xl: 28px;
+    --font-size-lg: 22px;
+  }
+
+  body {
+    padding: var(--spacing-sm);
+  }
+
+  header {
+    margin-bottom: var(--spacing-lg);
+    padding: var(--spacing-md) 0;
+  }
+
+  h1 {
+    font-size: var(--font-size-title);
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr !important;
+    gap: var(--spacing-md);
+  }
+
+  .content-card {
+    padding: var(--spacing-sm);
+  }
+
+  .button-giant {
+    min-height: 70px;
+    font-size: 20px;
+  }
+}

@@ -10,26 +10,26 @@ export default function Footer() {
     }} className="no-print">
       
       <div style={{ marginBottom: 'var(--spacing-lg)' }}>
-        <h2 style={{ marginBottom: 'var(--spacing-md)' }}>Precisa de Ajuda?</h2>
+        <h2 style={{ marginBottom: 'var(--spacing-md)' }}>Ficou fácil de aprender?</h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 'var(--spacing-md)', maxWidth: '1000px', margin: '0 auto' }}>
+          <a 
+            href="https://forms.gle/NQKq4myatLHDBaYn6" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="button-giant animate-pulse-slow" 
+            style={{ background: 'linear-gradient(135deg, #7C3AED, #0891B2)', color: 'white', border: '4px solid white' }}
+          >
+            <span style={{ fontSize: '32px', marginRight: 'var(--spacing-sm)' }}>⭐</span>
+            Contar o que achou
+          </a>
           <Link 
             href="/suporte" 
-            className="button-giant warning" 
+            className="button-giant" 
             style={{ background: 'linear-gradient(135deg, #EAB308, #D97706)', color: '#0F172A' }}
           >
             <span style={{ fontSize: '32px', marginRight: 'var(--spacing-sm)' }}>❓</span>
             Tire Suas Dúvidas
           </Link>
-          <a 
-            href="https://wa.me/5541999999999" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="button-giant" 
-            style={{ background: 'linear-gradient(135deg, #25D366, #128C7E)' }}
-          >
-            <span style={{ fontSize: '32px', marginRight: 'var(--spacing-sm)' }}>💬</span>
-            Falar no WhatsApp
-          </a>
         </div>
       </div>
 
@@ -61,8 +61,9 @@ export default function Footer() {
         </p>
       </div>
 
-      <div style={{ marginTop: 'var(--spacing-lg)', color: '#94A3B8', fontSize: '14px' }}>
+      <div style={{ marginBottom: 'var(--spacing-xl)', color: '#94A3B8', fontSize: '14px' }}>
         <p>© 2026 Inclusão Digital Curitiba - Um projeto de Mauricio R. Filho</p>
+        <p style={{ marginTop: '8px' }}>Contato: mauricio.santos0198@gmail.com</p>
       </div>
     </footer>
   );

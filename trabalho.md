@@ -138,4 +138,6 @@ continuidade na próxima etapa permitirá transformar o conhecimento levantado e
 plataforma digital acessível, que ampliará o alcance e a sustentabilidade da proposta.
 Os resultados alcançados nesta etapa consolidam a **Plataforma Digital de Inclusão** como uma ferramenta real de transformação. A alta adesão e o entusiasmo dos participantes durante a validação indicam que a solução técnica (Next.js + PWA) foi assertiva ao remover as barreiras das lojas de aplicativos tradicionais, permitindo que o idoso "instale" o conhecimento diretamente em sua tela inicial.
 
+Para garantir a melhoria contínua e a coleta de evidências para o relatório de resultados, foi integrado um canal de feedback direto via Google Forms (https://forms.gle/NQKq4myatLHDBaYn6) acessível em toda a plataforma, permitindo que os idosos expressem sua opinião e sugiram novos temas de aprendizagem de forma autônoma.
+
 Conclui-se, portanto, que a tecnologia, quando utilizada de forma humana e adaptada através do Desenho Universal, é um vetor potente de cidadania. O aprendizado obtido servirá de base para a expansão da plataforma, fortalecendo o vínculo entre a UNINTER e a comunidade, inspirando novas ações que unam tecnologia, educação e impacto social profundo.
