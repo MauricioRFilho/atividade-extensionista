@@ -1,143 +1,80 @@
-Título
-Plataforma Digital para Capacitação de Idosos em Tecnologia
-Setor de Aplicação
-Comunidade local — idosos atendidos por centros comunitários e grupos de
-convivência em Curitiba/PR.
-Objetivos de Desenvolvimento Sustentável (ODS)
-( ) 01. Erradicação da pobreza
-( ) 02. Fome zero e agricultura sustentável
-( ) 03. Saúde e bem-estar
-( x ) 04. Educação de qualidade
-( ) 05. Igualdade de gênero
-( ) 06. Água potável e saneamento
-( ) 07. Energia limpa e acessível
-( ) 08. Trabalho decente e crescimento econômico
-( ) 09. Indústria, inovação e infraestrutura
-( x ) 10. Redução das desigualdades
-( ) 11. Cidades e comunidades sustentáveis
-( ) 12. Consumo e produção responsáveis
-( ) 13. Ação contra a mudança global do clima
-( ) 14. Vida na água
-( ) 15. Vida terrestre
-( ) 16. Paz, justiça e instituições eficazes
-( ) 17. Parcerias e meios de implementação
-Centro Universitário Internacional UNINTER
-Escola Superior Politécnica – ESP
-Atividades Extensionistas – Proposta de Tema / Trabalho Final
-3
-Objetivos
-1 Levantar as principais necessidades e dificuldades dos idosos no uso de tecnologia
-(smartphones, aplicativos, serviços online).
-2 Mapear barreiras de acessibilidade e preferências de aprendizagem, aplicando os
-princípios do Desenho Universal.
-3 Pesquisar alternativas tecnológicas para capacitação, como tutoriais, videoaulas e
-plataformas digitais simples.
-4 Definir conteúdos básicos de ensino (uso de WhatsApp/e-mail, segurança digital,
-serviços públicos e bancários online).
-5 Validar a proposta junto à comunidade, registrando ajustes para a próxima etapa do
-projeto.
-Metodologia
-Fase 1: Levantamento de Necessidades (2 semanas)
-• Atividade A: Pesquisa de campo em centros comunitários
-• Atividade B: Aplicação de questionários estruturados
-Fase 2: Análise e Mapeamento (2 semanas)
-• Atividade C: Análise qualitativa e quantitativa dos dados
-• Atividade D: Mapeamento de barreiras de acessibilidade
-Fase 3: Pesquisa de Soluções (2 semanas)
-• Atividade E: Pesquisa de alternativas tecnológicas
-• Atividade F: Análise de plataformas existentes
-Fase 4: Definição de Conteúdo (3 semanas)
-• Atividade G: Estruturação do currículo básico
-• Atividade H: Criação de materiais didáticos adaptados
-Fase 5: Validação (3 semanas)
-• Atividade I: Implementação de teste piloto
-• Atividade J: Coleta de feedback da comunidade
-• Atividade K: Ajustes baseados no feedback
-Duração Total Estimada: 12 semanas
-Centro Universitário Internacional UNINTER
-Escola Superior Politécnica – ESP
-Atividades Extensionistas – Proposta de Tema / Trabalho Final
-4
-Centro Universitário Internacional UNINTER
-Escola Superior Politécnica – ESP
-Atividades Extensionistas – Proposta de Tema / Trabalho Final
-5
-Resultados Esperados
-• Promover a inclusão digital de pelo menos 70% dos idosos participantes,
-possibilitando que realizem tarefas digitais básicas de forma independente.
-• Reduzir a dependência de familiares para o uso de aplicativos de comunicação e
-serviços digitais.
-• Aumentar a confiança dos idosos no uso de smartphones, especialmente em
-operações críticas como envio de mensagens, chamadas de vídeo e consultas em
-aplicativos de saúde ou transporte.
-• Garantir que os participantes consigam identificar práticas de segurança digital
-(como criar senhas fortes e reconhecer possíveis golpes online).
-• Criar um repositório digital acessível (site simples ou pasta compartilhada) com
-videoaulas, tutoriais e materiais visuais adaptados, que poderá continuar sendo
-usado pela comunidade após o fim do projeto.
-• Estimular a socialização e o engajamento comunitário, fortalecendo vínculos entre
-participantes e facilitadores.
-Resultados Obtidos
-1 Participação e Engajamento:
-• 53 idosos participaram das atividades presenciais nos três centros comunitários
-visitados.
-• 76% concluíram integralmente os encontros propostos.
-• 82% relataram aumento de confiança no uso de smartphones e aplicativos de
-comunicação.
-2 Aprendizagem e Autonomia:
-• 68% dos participantes passaram a utilizar o WhatsApp de forma independente.
-• 54% conseguiram acessar serviços públicos digitais, como agendamento de
-consultas e emissão de documentos.
-• 47% criaram ou atualizaram suas senhas com base nas orientações de
-segurança apresentadas.
-3 Impacto Social:
-• Redução percebida do isolamento digital e fortalecimento de vínculos familiares
-por meio das ferramentas de comunicação.
-Centro Universitário Internacional UNINTER
-Escola Superior Politécnica – ESP
-Atividades Extensionistas – Proposta de Tema / Trabalho Final
-6
-• Criação espontânea de um grupo de WhatsApp entre os participantes para trocas
-de dúvidas e experiências.
-• Formação de dois voluntários idosos interessados em atuar como multiplicadores
-no próximo ciclo do projeto.
-4 Infraestrutura e Materiais:
-• Desenvolvimento e implantação da **Plataforma Digital de Inclusão**, acessível via navegador e instalável como **PWA (Progressive Web App)** no endereço: **https://atividade-extensionista-eight.vercel.app**
-• Criação de **12 guias práticos ilustrados** e uma curadoria de videoaulas com linguagem simplificada e alto contraste.
-• Implementação de funcionalidades de acessibilidade extrema (botões gigantes, fontes ampliadas e navegação intuitiva).
-Considerações Finais
-A realização da Atividade Extensionista I demonstrou, de forma prática, a relevância social
-da tecnologia quando aplicada com empatia e propósito inclusivo. O levantamento revelou
-que as dificuldades enfrentadas pelos idosos vão muito além da falta de conhecimento
-técnico, envolvem aspectos emocionais, sociais e até culturais que precisam ser
-considerados em qualquer proposta de capacitação digital.
-Os resultados alcançados reforçam o potencial transformador do projeto. A alta adesão e o
-entusiasmo dos participantes indicam que existe uma demanda latente por iniciativas de
-educação digital voltadas à terceira idade. A construção de materiais acessíveis e a
-metodologia participativa mostraram-se eficazes, resultando em um aprendizado
-significativo e em melhorias perceptíveis na autonomia dos participantes.
-Contudo, um ponto crítico identificado durante a execução do projeto foi a necessidade de
-alfabetização prévia para o acompanhamento das atividades. Parte dos idosos
-participantes apresentou dificuldades de leitura e escrita que limitaram sua capacidade de
-seguir as instruções, mesmo com recursos visuais e linguagem simplificada. Essa
-constatação evidencia que a inclusão digital depende diretamente da inclusão
-educacional básica, sem uma alfabetização mínima, o projeto perde parte de sua
-efetividade. Assim, torna-se essencial estabelecer parcerias com programas de
-alfabetização de jovens e adultos, integrando esforços para garantir que a tecnologia seja
-realmente acessível a todos.
-Centro Universitário Internacional UNINTER
-Escola Superior Politécnica – ESP
-Atividades Extensionistas – Proposta de Tema / Trabalho Final
-7
-Do ponto de vista acadêmico, esta experiência proporcionou o desenvolvimento de
-competências essenciais ao futuro gestor de tecnologia: comunicação empática,
-planejamento de projetos sociais, análise de dados qualitativos e integração entre teoria e
-prática.
-O projeto promove educação de qualidade e redução das desigualdades digitais. A
-continuidade na próxima etapa permitirá transformar o conhecimento levantado em uma
-plataforma digital acessível, que ampliará o alcance e a sustentabilidade da proposta.
-Os resultados alcançados nesta etapa consolidam a **Plataforma Digital de Inclusão** como uma ferramenta real de transformação. A alta adesão e o entusiasmo dos participantes durante a validação indicam que a solução técnica (Next.js + PWA) foi assertiva ao remover as barreiras das lojas de aplicativos tradicionais, permitindo que o idoso "instale" o conhecimento diretamente em sua tela inicial.
+# Relatório de Atividade Extensionista I
+## Centro Universitário Internacional UNINTER - Escola Superior Politécnica
 
-Para garantir a melhoria contínua e a coleta de evidências para o relatório de resultados, foi integrado um canal de feedback direto via Google Forms (https://forms.gle/NQKq4myatLHDBaYn6) acessível em toda a plataforma, permitindo que os idosos expressem sua opinião e sugiram novos temas de aprendizagem de forma autônoma.
+---
 
-Conclui-se, portanto, que a tecnologia, quando utilizada de forma humana e adaptada através do Desenho Universal, é um vetor potente de cidadania. O aprendizado obtido servirá de base para a expansão da plataforma, fortalecendo o vínculo entre a UNINTER e a comunidade, inspirando novas ações que unam tecnologia, educação e impacto social profundo.
+### 1. Identificação do Projeto
+**Título:** Plataforma Digital para Capacitação de Idosos em Tecnologia  
+**Setor de Aplicação:** Comunidade local — idosos atendidos por centros comunitários e grupos de convivência em Curitiba/PR.
+
+#### Objetivos de Desenvolvimento Sustentável (ODS) atendidos:
+- [ ] 01. Erradicação da pobreza
+- [ ] 02. Fome zero e agricultura sustentável
+- [ ] 03. Saúde e bem-estar
+- [x] **04. Educação de qualidade**
+- [ ] 05. Igualdade de gênero
+- [ ] 06. Água potável e saneamento
+- [ ] 07. Energia limpa e acessível
+- [ ] 08. Trabalho decente e crescimento econômico
+- [ ] 09. Indústria, inovação e infraestrutura
+- [x] **10. Redução das desigualdades**
+- [ ] 11. Cidades e comunidades sustentáveis
+- [ ] 12. Consumo e produção responsáveis
+- [ ] 13. Ação contra a mudança global do clima
+- [ ] 14. Vida na água
+- [ ] 15. Vida terrestre
+- [ ] 16. Paz, justiça e instituições eficazes
+- [ ] 17. Parcerias e meios de implementação
+
+---
+
+### 2. Objetivos
+1. **Levantamento:** Identificar as principais necessidades e dificuldades dos idosos no uso de tecnologia (smartphones, apps, serviços online).
+2. **Acessibilidade:** Mapear barreiras e aplicar os princípios do **Desenho Universal**.
+3. **Capacitação:** Pesquisar e criar alternativas tecnológicas simples (videoaulas e tutoriais).
+4. **Conteúdo:** Definir currículo básico (WhatsApp, Segurança Digital, Serviços Públicos/Pix).
+5. **Validação:** Validar a proposta junto à comunidade e coletar feedbacks reais.
+
+---
+
+### 3. Metodologia
+O projeto foi executado em **12 semanas**, seguindo as fases:
+*   **Fase 1 (Levantamento):** Pesquisa de campo e aplicação de questionários.
+*   **Fase 2 (Análise):** Mapeamento de barreiras e análise de custos de implantação.
+*   **Fase 3 (Soluções):** **Mudança de Estratégia:** Optou-se por uma plataforma **PWA (Web)** em vez de aplicativos nativos (iOS/Android). Essa decisão foi baseada na eliminação de custos de publicação (anuidade Apple Developer) e na facilidade de acesso via navegador para idosos que possuem dispositivos limitados.
+*   **Fase 4 (Conteúdo):** Estrutura do currículo e criação de materiais didáticos.
+*   **Fase 5 (Validação):** Teste piloto, coleta de feedback e análise de dados.
+
+---
+
+### 4. Resultados Obtidos
+
+#### 📈 Participação e Engajamento
+- **53 idosos** atendidos diretamente em três centros comunitários.
+- **76%** de taxa de conclusão das atividades propostas.
+- **82%** relataram aumento imediato de confiança no uso do celular.
+
+#### 🎓 Aprendizagem e Autonomia
+- **68%** dos participantes utilizam o WhatsApp de forma independente.
+- **54%** aprenderam a acessar serviços públicos (agendamentos de saúde).
+- **Telemetria de Uso:** Implementamos a coleta de dados de cliques para identificar os módulos mais acessados. Essa análise permite aprofundar os conhecimentos nas áreas de maior dúvida e refinar a interface baseada no comportamento real do idoso.
+
+#### 🌐 Infraestrutura Digital (MVP)
+- **Plataforma Web PWA:** [https://atividade-extensionista-eight.vercel.app](https://atividade-extensionista-eight.vercel.app)
+- **Repositório GitHub:** [https://github.com/MauricioRFilho/atividade-extensionista](https://github.com/MauricioRFilho/atividade-extensionista)
+- **Recursos:** 12 guias práticos e sistema de feedback via Google Forms ([Forms Link](https://forms.gle/NQKq4myatLHDBaYn6)).
+- **Módulo de Confiabilidade (Em desenvolvimento):** Estamos criando um sistema paralelo de inteligência para verificação de confiança. O usuário poderá colar um link ou carregar um print de página, e o sistema retornará uma **nota de confiabilidade (%)**, ajudando a prevenir golpes de forma automatizada.
+
+---
+
+### 5. Considerações Finais
+A Atividade Extensionista I demonstrou que a dificuldade dos idosos com a tecnologia envolve aspectos emocionais significativos. A escolha por uma aplicação Web gratuita e sem necessidade de downloads complexos removeu uma barreira de entrada crítica.
+
+**Destaque Técnico:** O uso de telemetria de cliques e o desenvolvimento do sistema de análise de confiabilidade (IA) elevam o projeto de um simples repositório de conteúdo para uma ferramenta ativa de segurança e inclusão digital.
+
+Do ponto de vista acadêmico, o projeto consolidou competências de **Engenharia de Software** e **Gestão de Projetos**, integrando teoria e impacto humano real.
+
+---
+**Autor:** Mauricio R. Filho  
+**Instituição:** Centro Universitário Internacional UNINTER  
+**Ano:** 2026

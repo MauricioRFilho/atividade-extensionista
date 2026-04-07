@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { trackEvent } from "@/utils/track";
 
 export default function Footer() {
   return (
@@ -17,6 +20,7 @@ export default function Footer() {
             target="_blank" 
             rel="noopener noreferrer" 
             className="button-giant animate-pulse-slow" 
+            onClick={() => trackEvent('footer_feedback_click')}
             style={{ background: 'linear-gradient(135deg, #7C3AED, #0891B2)', color: 'white', border: '4px solid white' }}
           >
             <span style={{ fontSize: '32px', marginRight: 'var(--spacing-sm)' }}>⭐</span>
@@ -25,6 +29,7 @@ export default function Footer() {
           <Link 
             href="/suporte" 
             className="button-giant" 
+            onClick={() => trackEvent('footer_support_click')}
             style={{ background: 'linear-gradient(135deg, #EAB308, #D97706)', color: '#0F172A' }}
           >
             <span style={{ fontSize: '32px', marginRight: 'var(--spacing-sm)' }}>❓</span>
@@ -40,9 +45,27 @@ export default function Footer() {
         flexWrap: 'wrap',
         marginBottom: 'var(--spacing-xl)' 
       }}>
-        <Link href="/sobre" style={{ color: 'var(--color-primary)', fontWeight: 'bold' }}>Sobre o Projeto</Link>
-        <Link href="/simulador" style={{ color: 'var(--color-primary)', fontWeight: 'bold' }}>Simulador de Cliques</Link>
-        <Link href="/" style={{ color: 'var(--color-primary)', fontWeight: 'bold' }}>Início (Aulas)</Link>
+        <Link 
+          href="/sobre" 
+          onClick={() => trackEvent('footer_nav_click', { page: 'sobre' })}
+          style={{ color: 'var(--color-primary)', fontWeight: 'bold' }}
+        >
+          Sobre o Projeto
+        </Link>
+        <Link 
+          href="/simulador" 
+          onClick={() => trackEvent('footer_nav_click', { page: 'simulador' })}
+          style={{ color: 'var(--color-primary)', fontWeight: 'bold' }}
+        >
+          Simulador de Cliques
+        </Link>
+        <Link 
+          href="/" 
+          onClick={() => trackEvent('footer_nav_click', { page: 'home' })}
+          style={{ color: 'var(--color-primary)', fontWeight: 'bold' }}
+        >
+          Início (Aulas)
+        </Link>
       </nav>
 
       <div style={{ 

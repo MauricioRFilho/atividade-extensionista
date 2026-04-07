@@ -2,6 +2,7 @@
 
 import { use } from 'react';
 import Link from 'next/link';
+import { trackEvent } from "@/utils/track";
 import { CONTENTS } from "@/data/contents";
 import Footer from '@/components/Footer';
 
@@ -40,6 +41,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
       <header>
         <Link 
           href="/" 
+          onClick={() => trackEvent('category_back_click', { from: slug })}
           style={{ color: 'var(--color-primary)', fontWeight: 'bold', fontSize: '1.2rem', marginBottom: 'var(--spacing-md)', display: 'inline-block', textDecoration: 'none' }}
         >
           ← Voltar para o Início
@@ -69,6 +71,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
               target="_blank" 
               rel="noopener noreferrer"
               className="button-giant"
+              onClick={() => trackEvent('category_youtube_open_click', { video_title: video.title, category: slug })}
               style={{ marginTop: 'var(--spacing-md)' }}
             >
               Abrir no YouTube
