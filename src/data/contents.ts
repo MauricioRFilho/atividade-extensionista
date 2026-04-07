@@ -173,5 +173,165 @@ export const GUIDES: GuideItem[] = [
         image_url: '/gov_br_medalhas.png'
       }
     ]
+  },
+  {
+    id: 'teclado-emojis',
+    title: 'Teclado e Emojis',
+    description: 'Aprenda a escrever mensagens e usar as carinhas (emojis).',
+    category: 'WhatsApp',
+    steps: [
+      {
+        text: '1. Toque na barra branca onde se escreve. O teclado vai subir sozinho.',
+        image_url: '/mao_clicando_teclado.png'
+      },
+      {
+        text: '2. Para as carinhas, toque no rosto sorridente no canto do teclado.',
+        image_url: '/teclado_emoji_click.png'
+      },
+      {
+        text: '3. DICA: Se errar uma letra, toque na tecla com um "X" para apagar.',
+        image_url: '/teclado_backspace.png'
+      }
+    ]
+  },
+  {
+    id: 'limpar-celular',
+    title: 'Limpar o Celular',
+    description: 'Apague fotos repetidas e "bom dia" para o celular não travar.',
+    category: 'Básico',
+    steps: [
+      {
+        text: '1. Procure pelo aplicativo "Galeria" ou "Fotos" onde ficam suas imagens.',
+        image_url: '/app_galeria.png'
+      },
+      {
+        text: '2. Toque e segure o dedo em cima da foto que quer apagar até aparecer um "reminho" ou lixeira.',
+        image_url: '/selecionar_foto_lixeira.png'
+      },
+      {
+        text: '3. IMPORTANTE: Depois de apagar, vá na "Lixeira" para excluir de vez e ganhar espaço.',
+        image_url: '/limpando_lixeira.png'
+      }
+    ]
+  },
+  {
+    id: 'chamada-video',
+    title: 'Chamada de Vídeo',
+    description: 'Veja seus netos e amigos enquanto conversa pelo WhatsApp.',
+    category: 'WhatsApp',
+    steps: [
+      {
+        text: '1. Abra a conversa com a pessoa e olhe lá no alto: tem um desenho de uma filmadora.',
+        image_url: '/whatsapp_icon_video.png'
+      },
+      {
+        text: '2. Toque na filmadora e espere a pessoa atender. Coloque o celular na altura do rosto.',
+        image_url: '/posicao_chamada_video.png'
+      },
+      {
+        text: '3. PARA DESLIGAR: Toque no botão vermelho com um desenho de telefone para baixo.',
+        image_url: '/whatsapp_desligar.png'
+      }
+    ]
+  },
+  {
+    id: 'enviar-localizacao',
+    title: 'Mandar Localização',
+    description: 'Diga onde você está para que alguém possa te buscar ou te encontrar.',
+    category: 'WhatsApp',
+    steps: [
+      {
+        text: '1. Toque no desenho de um "Clipe de papel" no WhatsApp e escolha "Localização".',
+        image_url: '/whatsapp_clipe_id.png'
+      },
+      {
+        text: '2. Toque em "Localização atual" (tem uma bolinha azul que diz onde você está).',
+        image_url: '/whatsapp_mandar_local.png'
+      },
+      {
+        text: '3. PRONTO: A pessoa receberá um mapa mostrando exatamente onde você está.',
+        image_url: '/whatsapp_mapa_enviado.png'
+      }
+    ]
+  },
+  {
+    id: 'ler-qr-code',
+    title: 'Ler o QR Code',
+    description: 'Aprenda a ler os quadradinhos pretos que aparecem na TV ou no banco.',
+    category: 'Básico',
+    steps: [
+      {
+        text: '1. Abra o aplicativo da Câmera do seu celular, como se fosse tirar uma foto.',
+        image_url: '/abrir_camera.png'
+      },
+      {
+        text: '2. Aponte a câmera para o quadradinho preto (QR Code) e espere aparecer um link.',
+        image_url: '/apontando_qr_code.png'
+      },
+      {
+        text: '3. Toque no link amarelo ou azul que apareceu na tela para abrir o conteúdo.',
+        image_url: '/clicando_link_qr.png'
+      }
+    ]
+  },
+  {
+    id: 'google-lens',
+    title: 'Lupa do Google',
+    description: 'Use o celular para ler letras miúdas de remédios ou traduzir textos.',
+    category: 'Acessibilidade',
+    steps: [
+      {
+        text: '1. Procure pelo ícone que parece uma camera colorida do Google (Google Lens).',
+        image_url: '/google_lens_icon.png'
+      },
+      {
+        text: '2. Aponte para um texto pequeno e toque em "Texto" ou "Pesquisar".',
+        image_url: '/lens_apontando.png'
+      },
+      {
+        text: '3. O celular vai iluminar as letras e você pode até pedir para ele ler em voz alta!',
+        image_url: '/lens_lendo_alto.png'
+      }
+    ]
+  },
+  {
+    id: 'brilho-e-som',
+    title: 'Brilho e Som',
+    description: 'Deixe a tela mais clara e o toque do celular mais alto.',
+    category: 'Básico',
+    steps: [
+      {
+        text: '1. Deslize o dedo do topo da tela para baixo, duas vezes, até ver uma barra com um sol.',
+        image_url: '/deslizar_topo_brilho.png'
+      },
+      {
+        text: '2. Arraste a barra do sol para a direita para a tela ficar bem brilhante.',
+        image_url: '/ajustar_brilho.png'
+      },
+      {
+        text: '3. Para o SOM: Use os botões do lado do celular e aperte para cima até ficar no máximo.',
+        image_url: '/botão_volume_fisico.png'
+      }
+    ]
+  },
+  {
+    id: 'links-falsos',
+    title: 'Links de Golpes',
+    description: 'Como saber se uma mensagem de prêmio ou banco é mentira.',
+    category: 'Segurança',
+    steps: [
+      {
+        text: '1. DESCONFIE: Se a mensagem diz que você ganhou um sorteio que não participou, é golpe.',
+        image_url: '/print_golpe_sorteio.png'
+      },
+      {
+        text: '2. OLHE O LINK: Se o endereço for estranho (cheio de letras e números sem sentido), não clique.',
+        image_url: '/link_suspeito_exemplo.png'
+      },
+      {
+        text: '3. NA DÚVIDA: Não clique em nada. Pergunte para um neto ou filho antes de abrir.',
+        image_url: '/perguntar_ajuda.png'
+      }
+    ]
   }
 ];

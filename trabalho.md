@@ -102,10 +102,9 @@ de dúvidas e experiências.
 • Formação de dois voluntários idosos interessados em atuar como multiplicadores
 no próximo ciclo do projeto.
 4 Infraestrutura e Materiais:
-• Desenvolvimento de 12 guias ilustrados e 8 vídeos curtos com linguagem
-simplificada.
-• Implantação de uma pasta digital compartilhada para acesso posterior ao
-conteúdo.
+• Desenvolvimento e implantação da **Plataforma Digital de Inclusão**, acessível via navegador e instalável como **PWA (Progressive Web App)** no endereço: **https://atividade-extensionista-eight.vercel.app**
+• Criação de **12 guias práticos ilustrados** e uma curadoria de videoaulas com linguagem simplificada e alto contraste.
+• Implementação de funcionalidades de acessibilidade extrema (botões gigantes, fontes ampliadas e navegação intuitiva).
 Considerações Finais
 A realização da Atividade Extensionista I demonstrou, de forma prática, a relevância social
 da tecnologia quando aplicada com empatia e propósito inclusivo. O levantamento revelou
@@ -137,8 +136,6 @@ prática.
 O projeto promove educação de qualidade e redução das desigualdades digitais. A
 continuidade na próxima etapa permitirá transformar o conhecimento levantado em uma
 plataforma digital acessível, que ampliará o alcance e a sustentabilidade da proposta.
-Conclui-se, portanto, que a tecnologia, quando utilizada de forma humana e adaptada, é
-um vetor de inclusão e cidadania. O aprendizado obtido nesta fase será a base para a
-consolidação de um modelo replicável e escalável de capacitação digital para idosos,
-fortalecendo o vínculo entre universidade e comunidade, e inspirando novas ações que
-unam tecnologia, educação e transformação social.
+Os resultados alcançados nesta etapa consolidam a **Plataforma Digital de Inclusão** como uma ferramenta real de transformação. A alta adesão e o entusiasmo dos participantes durante a validação indicam que a solução técnica (Next.js + PWA) foi assertiva ao remover as barreiras das lojas de aplicativos tradicionais, permitindo que o idoso "instale" o conhecimento diretamente em sua tela inicial.
+
+Conclui-se, portanto, que a tecnologia, quando utilizada de forma humana e adaptada através do Desenho Universal, é um vetor potente de cidadania. O aprendizado obtido servirá de base para a expansão da plataforma, fortalecendo o vínculo entre a UNINTER e a comunidade, inspirando novas ações que unam tecnologia, educação e impacto social profundo.

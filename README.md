@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Plataforma de Inclusão Digital para Idosos - UNINTER
 
-## Getting Started
+Esta plataforma foi desenvolvida como parte da **Atividade Extensionista I** do Centro Universitário Internacional (UNINTER). O objetivo é capacitar idosos de Curitiba no uso de tecnologias digitais essenciais, promovendo autonomia e segurança.
 
-First, run the development server:
+## 🚀 Acesse a Plataforma
+[https://atividade-extensionista-eight.vercel.app](https://atividade-extensionista-eight.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Principais Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📱 Experiência PWA (Instalável)
+- O aplicativo pode ser instalado na tela inicial do celular clicando em "Adicionar à Tela de Início".
+- Interface leve e rápida, funcionando como um app de verdade sem precisar baixar da Play Store.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 👓 Desenho Universal (Acessibilidade)
+- **Botões Gigantes:** Feedback visual e vibratório (se suportado) para facilitar o toque.
+- **Tipografia Adaptada:** Fontes em tamanho 20px+ com alto contraste (Azul e Branco).
+- **Vídeos Curtos:** Aulas de até 3 minutos focadas em soluções reais (WhatsApp, Pix, Segurança).
 
-## Learn More
+### 🕹️ Simulador de Cliques
+- Mini-jogos para treinar a precisão do toque e o reconhecimento de botões comuns do dia a dia (Menu, Confirmação, Play).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📚 Módulos de Aprendizado
+1. **Módulo Básico:** Gestos, ícones e instalação de apps.
+2. **Módulo WhatsApp:** Conversas, vídeos e chamadas.
+3. **Módulo Segurança:** Como reconhecer golpes e links falsos.
+4. **Módulo Social & Finanças:** Facebook e Pix Seguro.
+5. **Guias Práticos (Total 12):** Passo a passo em PDF e Impressão (QR Code, Lupa, Limpeza).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tecnologias Utilizadas
+- **Core:** Next.js 16 (App Router), React 19.
+- **Styling:** CSS Moderno com Design Tokens.
+- **Deploy:** Vercel Infrastructure.
+- **PWA:** Service Worker e Manifest.json Nativo.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎓 Autor
+Projeto acadêmico vinculado à Atividade de Extensão da UNINTER.
+**Curso:** Engenharia / Superior de Tecnologia
+**Local:** Curitiba/PR
+
+---
+
+## Como Rodar Localmente
+
+1. Clone o repositório.
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Rode o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+4. Gere a versão de produção:
+   ```bash
+   npm run build
+   ```

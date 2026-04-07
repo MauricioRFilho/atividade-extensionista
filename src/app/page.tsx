@@ -11,11 +11,11 @@ export default function Home() {
       </header>
 
       <div style={{ marginBottom: 'var(--spacing-xl)', maxWidth: '1200px', margin: '0 auto var(--spacing-xl) auto' }}>
-        <Link href="/simulador" className="button-giant" style={{ background: 'linear-gradient(135deg, #7C3AED, #4C1D95)', height: '100px', fontSize: '24px' }}>
+        <Link href="/simulador" className="button-giant" style={{ background: 'linear-gradient(135deg, #7C3AED, #4C1D95)', minHeight: '140px', padding: 'var(--spacing-md)' }}>
           <span style={{ fontSize: '48px', marginRight: 'var(--spacing-md)' }}>🕹️</span>
-          <div>
-            <div style={{ fontSize: '28px' }}>Jogar: Treinar meus Cliques</div>
-            <div style={{ fontSize: '18px', opacity: 0.9, fontWeight: 'normal' }}>Aprenda a clicar sem medo de quebrar nada!</div>
+          <div style={{ textAlign: 'left' }}>
+            <div style={{ fontSize: '28px', fontWeight: '900', lineHeight: '1.2' }}>Jogar: Treinar meus Cliques</div>
+            <div style={{ fontSize: '18px', opacity: 0.9, fontWeight: 'normal', marginTop: '4px' }}>Aprenda a clicar sem medo de quebrar nada!</div>
           </div>
         </Link>
       </div>

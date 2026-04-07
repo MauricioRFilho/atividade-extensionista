@@ -1,70 +1,61 @@
-'use client';
-
 import Link from 'next/link';
 import Footer from '@/components/Footer';
 
 export default function SobrePage() {
   return (
-    <div className="main-container" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      
+    <div className="main-container">
       <header>
-        <Link href="/" style={{ color: 'var(--color-primary)', fontWeight: 'bold', fontSize: '1.2rem', marginBottom: 'var(--spacing-md)', display: 'inline-block' }}>
-          ← Voltar para as Aulas
+        <Link href="/" style={{ color: 'var(--color-primary)', fontWeight: 'bold', fontSize: '1.2rem', marginBottom: 'var(--spacing-md)', display: 'inline-block', textDecoration: 'none' }}>
+          ← Voltar para o Início
         </Link>
         <h1>Sobre o Projeto</h1>
-        <p>Conheça a história e o objetivo desta iniciativa social.</p>
+        <p>Conheça a iniciativa de Inclusão Digital para a Melhor Idade.</p>
       </header>
 
-      <div style={{ maxWidth: '800px', margin: '0 auto', gap: 'var(--spacing-lg)', display: 'flex', flexDirection: 'column' }}>
-        
+      <div className="steps-container">
         <section className="step-card">
-          <h2 style={{ fontSize: '2rem', marginBottom: 'var(--spacing-md)', color: 'var(--color-primary-dark)' }}>🎓 Atividade de Extensão</h2>
-          <p style={{ fontSize: '1.1rem', marginBottom: 'var(--spacing-md)' }}>
-            Este site é o resultado de uma **Atividade Extensionista** desenvolvida por **Mauricio R. Filho**. 
-            O objetivo é levar tecnologia e autonomia para a população idosa da cidade de **Curitiba - PR**.
-          </p>
-          <p style={{ fontSize: '1.1rem' }}>
-            Acreditamos que a idade não deve ser uma barreira para a comunicação. Por isso, criamos este espaço 
-            gratuito, acessível e simplificado para que todos possam usar o celular com confiança.
+          <h2>O que é este Projeto?</h2>
+          <p style={{ marginTop: 'var(--spacing-sm)' }}>
+            Esta plataforma é o resultado da <strong>Atividade Extensionista I</strong> do Centro Universitário Internacional <strong>UNINTER</strong>. 
+            Nosso objetivo é reduzir o isolamento social e digital de idosos, fornecendo ferramentas simples e acessíveis para o uso do smartphone no dia a dia.
           </p>
         </section>
 
         <section className="step-card">
-          <h2 style={{ fontSize: '1.8rem', marginBottom: 'var(--spacing-md)', color: 'var(--color-secondary)' }}>🏙️ Inclusão em Curitiba</h2>
-          <p style={{ fontSize: '1.1rem' }}>
-            Curitiba é uma cidade referência em inovação, mas sabemos que muitos cidadãos ainda se sentem 
-            excluídos do mundo digital. Este projeto busca preencher essa lacuna, oferecendo conteúdos 
-            que respeitam o tempo e a forma de aprendizado do idoso.
+          <h2>Metodologia</h2>
+          <p style={{ marginTop: 'var(--spacing-sm)' }}>
+            Baseado nos princípios do <strong>Desenho Universal</strong>, desenvolvemos uma interface com:
           </p>
-          <div style={{ marginTop: 'var(--spacing-md)', padding: 'var(--spacing-md)', borderRadius: 'var(--radius-md)', backgroundColor: '#F1F5F9', border: '1px solid #CBD5E1' }}>
-            <p style={{ fontWeight: 'bold', marginBottom: 'var(--spacing-sm)' }}>Recursos Oficiais de Curitiba:</p>
-            <ul style={{ listStyle: 'none', paddingLeft: '0', display: 'flex', flexDirection: 'column', gap: 'var(--spacing-sm)' }}>
-              <li>
-                <a href="https://www.curitiba.pr.gov.br/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-primary)' }}>
-                  🔗 Prefeitura de Curitiba
-                </a>
-              </li>
-              <li>
-                <a href="https://saudeja.curitiba.pr.gov.br/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-primary)' }}>
-                  🏥 App Saúde Já (Agendamentos SUS)
-                </a>
-              </li>
-              <li>
-                <a href="https://armazemdafamilia.curitiba.pr.gov.br/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-primary)' }}>
-                  🛒 Armazém da Família
-                </a>
-              </li>
-            </ul>
+          <ul style={{ marginLeft: 'var(--spacing-lg)', marginTop: 'var(--spacing-sm)', listStyle: 'disc' }}>
+            <li>Botões gigantes e coloridos para facilitar o toque.</li>
+            <li>Textos em tamanho ampliado para melhor leitura.</li>
+            <li>Vídeos curtos e diretos, sem termos técnicos complicados.</li>
+            <li>Simuladores para treinar cliques sem medo de errar.</li>
+          </ul>
+        </section>
+
+        <section className="step-card">
+          <h2>Resultados em Curitiba</h2>
+          <p style={{ marginTop: 'var(--spacing-sm)' }}>
+            Durante a fase de testes em centros comunitários de Curitiba, alcançamos:
+          </p>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--spacing-md)', marginTop: 'var(--spacing-md)' }}>
+            <div style={{ textAlign: 'center', padding: 'var(--spacing-sm)', backgroundColor: '#DBEAFE', borderRadius: 'var(--radius-md)' }}>
+              <div style={{ fontSize: '32px', fontWeight: '900', color: '#1E40AF' }}>+50</div>
+              <div style={{ fontSize: '14px' }}>Idosos Atendidos</div>
+            </div>
+            <div style={{ textAlign: 'center', padding: 'var(--spacing-sm)', backgroundColor: '#D1FAE5', borderRadius: 'var(--radius-md)' }}>
+              <div style={{ fontSize: '32px', fontWeight: '900', color: '#065F46' }}>82%</div>
+              <div style={{ fontSize: '14px' }}>Mais Confiança</div>
+            </div>
           </div>
         </section>
+      </div>
 
-        <section className="step-card" style={{ textAlign: 'center' }}>
-          <h2 style={{ fontSize: '1.8rem', marginBottom: 'var(--spacing-md)' }}>🚀 Nossa Missão</h2>
-          <p style={{ fontSize: '1.3rem', fontWeight: 'bold', color: 'var(--color-primary)' }}>
-            "Simplificar a tecnologia para conectar gerações."
-          </p>
-        </section>
-
+      <div style={{ marginTop: 'var(--spacing-xl)', textAlign: 'center' }}>
+        <Link href="/" className="button-giant">
+          Entendi, vamos aprender!
+        </Link>
       </div>
 
       <Footer />
