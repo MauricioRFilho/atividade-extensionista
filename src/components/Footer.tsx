@@ -20,7 +20,7 @@ export default function Footer() {
             style={{ background: 'linear-gradient(135deg, #7C3AED, #0891B2)', color: 'white', border: '4px solid white' }}
           >
             <span style={{ fontSize: '32px', marginRight: 'var(--spacing-sm)' }}>⭐</span>
-            Contar o que achou
+            Enviar sua Opinião
           </a>
           <Link 
             href="/suporte" 
