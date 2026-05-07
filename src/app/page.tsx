@@ -13,6 +13,19 @@ export default function Home() {
       </header>
 
       <div style={{ marginBottom: 'var(--spacing-xl)', maxWidth: '1200px', margin: '0 auto var(--spacing-xl) auto' }}>
+        <Link
+          href="/safecheck"
+          className="button-giant"
+          onClick={() => trackEvent('home_safecheck_click')}
+          style={{ background: 'linear-gradient(135deg, #0EA5E9, #075985)', minHeight: '140px', padding: 'var(--spacing-md)', marginBottom: 'var(--spacing-md)' }}
+        >
+          <span style={{ fontSize: '48px', marginRight: 'var(--spacing-md)' }}>🔎</span>
+          <div style={{ textAlign: 'left' }}>
+            <div style={{ fontSize: '28px', fontWeight: '900', lineHeight: '1.2' }}>Verificador de Golpes</div>
+            <div style={{ fontSize: '18px', opacity: 0.9, fontWeight: 'normal', marginTop: '4px' }}>Veja se um link ou print é perigoso</div>
+          </div>
+        </Link>
+
         <Link 
           href="/simulador" 
           className="button-giant" 
