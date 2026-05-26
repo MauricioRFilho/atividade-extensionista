@@ -9,10 +9,10 @@
 - ✅ TASK-006-validar-testes-e-roteiro-tcc
 
 ## Critérios gerais de pronto (DoD)
-- [ ] Código revisado.
-- [ ] Sem regressões funcionais.
-- [ ] Testes mínimos executados.
-- [ ] Documentação atualizada.
+- [x] Código revisado.
+- [x] Sem regressões funcionais (builds de produção integrados e sem erros).
+- [x] Testes automatizados executados e 100% aprovados (Vitest).
+- [x] Documentação e Roadmap atualizados.
 
 ## Próxima task ativa
-- **Encerramento do MVP:** pronto para ensaio final da banca e coleta de feedback real.
+- **Apresentação da Banca (TCC):** MVP homologado e pronto para a defesa pública com roteiro estruturado.

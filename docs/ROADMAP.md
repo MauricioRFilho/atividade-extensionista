@@ -19,20 +19,20 @@ gantt
     section Planejamento
     Definicao de regras e pesos         :done, p1, 2026-05-08, 3d
     section Fundacao
-    Repo standalone e CI/CD             :active, p2, 2026-05-11, 3d
+    Repo standalone e CI/CD             :done, p2, 2026-05-11, 3d
     section Analise
-    Engine URL                          :p3, 2026-05-14, 6d
-    Engine Imagem + OCR                 :p4, 2026-05-20, 6d
+    Engine URL                          :done, p3, 2026-05-14, 6d
+    Engine Imagem + OCR                 :done, p4, 2026-05-20, 6d
     section Produto
-    Interface e explicabilidade         :p5, 2026-05-26, 4d
+    Interface e explicabilidade         :done, p5, 2026-05-26, 4d
     section Finalizacao
-    Testes, calibracao e apresentacao   :p6, 2026-05-30, 4d
+    Testes, calibracao e apresentacao   :done, p6, 2026-05-30, 4d
 ```
 
 ## Status por Fase
 - ✅ Fase 1: Planejamento e escopo do MVP sem IA.
 - ✅ Fase 2: Concluída (repo standalone + deploy Vercel + remoto GitHub).
-- 📋 Fase 3: Pendente.
-- 📋 Fase 4: Pendente.
-- 📋 Fase 5: Pendente.
-- 📋 Fase 6: Pendente.
+- ✅ Fase 3: Concluída (Engine de análise de URL por heurísticas BR).
+- ✅ Fase 4: Concluída (Engine de análise de imagem + extração OCR local).
+- ✅ Fase 5: Concluída (Interface de explicabilidade e score visual).
+- ✅ Fase 6: Concluída (Bateria de testes automatizados Vitest + Roteiro de banca).
