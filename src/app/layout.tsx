@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "Inclusão Digital",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.png",
     apple: "/apple-touch-icon.png",
   },
 };
