@@ -68,21 +68,18 @@ export default function Footer() {
         </Link>
       </nav>
 
-      <div style={{ 
-        padding: 'var(--spacing-md)', 
-        borderRadius: 'var(--radius-md)', 
-        backgroundColor: '#F1F5F9', 
-        border: '2px dashed #CBD5E1', 
-        maxWidth: '600px', 
-        margin: '0 auto' 
-      }}>
-        <p style={{ color: '#64748B', fontSize: '18px', fontWeight: 'bold', margin: 0 }}>
-          🛡️ Módulo de Confiabilidade
+      <Link 
+        href="/safecheck"
+        className="footer-card-safecheck"
+        onClick={() => trackEvent('footer_safecheck_card_click')}
+      >
+        <p style={{ color: '#0369A1', fontSize: '20px', fontWeight: 'bold', margin: 0 }}>
+          🛡️ Verificador de Golpes (SafeCheck)
         </p>
-        <p style={{ color: '#94A3B8', fontSize: '14px', margin: '5px 0 0 0' }}>
-          (Projeto externo em desenvolvimento - Atividade de Extensão)
+        <p style={{ color: '#0284C7', fontSize: '15px', margin: '6px 0 0 0', fontWeight: 'bold' }}>
+          Clique aqui para testar se um link ou imagem é seguro!
         </p>
-      </div>
+      </Link>
 
       <div style={{ marginBottom: 'var(--spacing-xl)', color: '#94A3B8', fontSize: '14px' }}>
         <p>© 2026 Inclusão Digital Curitiba - Um projeto de Mauricio R. Filho</p>

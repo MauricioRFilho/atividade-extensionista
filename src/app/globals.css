@@ -304,3 +304,29 @@ footer {
     font-size: 20px;
   }
 }
+
+/* Card Interativo do SafeCheck no Footer */
+.footer-card-safecheck {
+  display: block;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  background-color: #F8FAFC;
+  border: 2px dashed #CBD5E1;
+  max-width: 600px;
+  margin: 0 auto;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.footer-card-safecheck:hover {
+  background-color: #E0F2FE; /* Sky 100 */
+  border: 2px solid #0EA5E9; /* Sky 500 */
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.footer-card-safecheck:active {
+  transform: translateY(1px);
+  box-shadow: var(--shadow-sm);
+}
