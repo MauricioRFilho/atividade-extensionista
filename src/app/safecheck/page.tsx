@@ -25,15 +25,17 @@ export default function SafeCheckPage() {
         }}
       >
         <a
-          href={SAFECHECK_URL}
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#verificador"
           className="button-giant"
-          onClick={() => trackEvent('safecheck_open_external')}
+          onClick={(e) => {
+            e.preventDefault();
+            trackEvent('safecheck_scroll_to_iframe');
+            document.getElementById('verificador')?.scrollIntoView({ behavior: 'smooth' });
+          }}
           style={{ background: 'linear-gradient(135deg, #0EA5E9, #075985)', minHeight: '120px' }}
         >
           <span style={{ fontSize: '40px', marginRight: 'var(--spacing-sm)' }}>🔎</span>
-          Abrir Verificador Completo
+          Ir para o Verificador Integrado
         </a>
 
         <div
@@ -58,6 +60,7 @@ export default function SafeCheckPage() {
         </div>
 
         <div
+          id="verificador"
           style={{
             background: 'white',
             borderRadius: 'var(--radius-lg)',
@@ -69,7 +72,8 @@ export default function SafeCheckPage() {
           <iframe
             src={SAFECHECK_URL}
             title="Verificador de Golpes Integrado"
-            style={{ width: '100%', height: '900px', border: 'none' }}
+            style={{ width: '100%', height: '900px', border: 'none', display: 'block', overflow: 'hidden' }}
+            scrolling="no"
           />
         </div>
 

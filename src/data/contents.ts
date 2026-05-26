@@ -342,15 +342,15 @@ export const GUIDES: GuideItem[] = [
     steps: [
       {
         text: '1. O Pix Errado: Se alguém te mandar um Pix e pedir de volta por mensagem, não devolva direto. Pode ser um golpe de estorno. Chame um familiar ou fale com o banco.',
-        image_url: '/aviso_pix_estorno.png'
+        image_url: '/aviso_seguranca_pix.png'
       },
       {
         text: '2. Falsa Central: O banco NUNCA liga pedindo sua senha ou pedindo para instalar novos aplicativos de "segurança" (como AnyDesk ou TeamViewer). Se pedirem isso, desligue na hora!',
-        image_url: '/aviso_acesso_remoto.png'
+        image_url: '/aviso_seguranca_pix.png'
       },
       {
         text: '3. Falso Parente: Se "seu filho" pedir dinheiro no WhatsApp com um número novo, LIGUE para o número antigo dele ou em vídeo. Não faça o Pix antes de ver e ouvir a pessoa real.',
-        image_url: '/aviso_falso_parente.png'
+        image_url: '/idosa_brasileira.png'
       }
     ]
   },
@@ -362,15 +362,15 @@ export const GUIDES: GuideItem[] = [
     steps: [
       {
         text: '1. PRIVACIDADE: No Facebook e Instagram, peça ajuda para deixar seu perfil como "Privado" ou "Só Amigos". Assim, pessoas estranhas não verão suas fotos e sua vida.',
-        image_url: '/config_privacidade_perfil.png'
+        image_url: '/whatsapp_configuracoes.png'
       },
       {
         text: '2. PENSE ANTES DE POSTAR: Evite postar fotos que mostrem a frente da sua casa, placas de carro ou documentos. Bandidos podem usar essas informações para o mal.',
-        image_url: '/pense_antes_postar.png'
+        image_url: '/mao_idoso_clicando.png'
       },
       {
         text: '3. SE ERROU, APAGA! No WhatsApp, segure o dedo na mensagem errada e escolha "Apagar para Todos". No Facebook, toque nos três pontinhos no alto do erro e escolha "Excluir".',
-        image_url: '/apagar_mensagem_erro.png'
+        image_url: '/whatsapp_papel_pin.png'
       }
     ]
   }

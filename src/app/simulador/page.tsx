@@ -44,8 +44,18 @@ export default function SimuladorPage() {
             ← Voltar para o Início
           </Link>
           <h1 style={{ color: 'var(--slate-900)' }}>Simulador de Cliques</h1>
-          <div style={{ backgroundColor: '#DBEAFE', padding: 'var(--spacing-md)', borderRadius: 'var(--radius-lg)', marginTop: 'var(--spacing-md)', borderLeft: '8px solid var(--primary)' }}>
-            <p style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#1E40AF', margin: 0 }}>
+          <div style={{ 
+            backgroundColor: '#DBEAFE', 
+            padding: 'var(--spacing-md)', 
+            borderRadius: 'var(--radius-lg)', 
+            marginTop: 'var(--spacing-md)', 
+            borderLeft: '8px solid var(--color-primary)',
+            minHeight: '140px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center'
+          }}>
+            <p style={{ fontSize: '1.4rem', fontWeight: 'bold', color: '#1E40AF', margin: 0, textAlign: 'center', width: '100%' }}>
               {message}
             </p>
           </div>
